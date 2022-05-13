@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BrowserStack Test automtion regression suite"
+	thread-count="3" parallel="tests" verbose="3">
+
+
+<!--	<test name="LocalBrowser Test - FF">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.mytests.LBTest" />
+		</classes>
+
+	</test>-->
+
+	<test name="LocalBrowser Test - Chrome">
+		<parameter name="browser" value="Chrome" />
+
+		<classes>
+			<class name="com.mytests.LBTest" />
+		</classes>
+
+	</test>
+
+
+
+
+
+
+
+
+
+
+</suite>

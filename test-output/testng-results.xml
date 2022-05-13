@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="BrowserStack Test automtion regression suite" duration-ms="4988" started-at="2022-04-26T14:44:10Z" finished-at="2022-04-26T14:44:15Z">
+    <groups>
+    </groups>
+    <test name="LocalBrowser Test - Chrome" duration-ms="4988" started-at="2022-04-26T14:44:10Z" finished-at="2022-04-26T14:44:15Z">
+      <class name="com.mytests.LBTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.mytests.LBTest@6f80fafe]" name="setUp" is-config="true" duration-ms="3608" started-at="2022-04-26T14:44:10Z" finished-at="2022-04-26T14:44:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.mytests.LBTest.checkInventoryItemTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="checkInventoryItemTest()[pri:1, instance:com.mytests.LBTest@6f80fafe]" name="checkInventoryItemTest" duration-ms="398" started-at="2022-04-26T14:44:14Z" finished-at="2022-04-26T14:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInventoryItemTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mytests.LBTest@6f80fafe]" name="tearDown" is-config="true" duration-ms="767" started-at="2022-04-26T14:44:15Z" finished-at="2022-04-26T14:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mytests.LBTest -->
+    </test> <!-- LocalBrowser Test - Chrome -->
+  </suite> <!-- BrowserStack Test automtion regression suite -->
+</testng-results>
